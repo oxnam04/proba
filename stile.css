@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+body{
+    background: url("https://1757140519.rsc.cdn77.org/blog/wp-content/uploads/sites/2/2018/11/logotype_animationh.gif");
+}
+.container{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+}
+.container span{
+    text-transform: uppercase;
+    display: block;
+}
+.text1{
+    font-style: italic;
+    color: #FFFFFF;
+    font-size: 60px;
+    font-weight: 700;
+    letter-spacing: 8px;
+    margin-bottom: 20px;
+    background: transparent;
+    position: relative;
+    animation: text 3s 1;
+}
+.text2{
+    font-style: italic;
+    font-size: 35px;
+   color: white;
+}
+
+@keyframes text {
+    0%{
+        color: black;
+        margin-bottom: -40px;
+    }
+    30%{
+        letter-spacing: 25px;
+        margin-bottom: -40px;
+    }
+    85%{
+        letter-spacing: 5px;
+        margin-bottom: -40px;
+    }
+
+}
